@@ -4,7 +4,7 @@ from PIL import Image, ImageOps
 import numpy as np
 import streamlit as st
 import tensorflow as tf
-st.title("Identification the Condition of CEilling of the House")
+st.title("Identification the Condition of Ceilling of the House")
 st.header("Architecture Image Detection")
 st.text("Upload an image of any piece in  Ceilling's house for Identification ")
 from img_classification import teachable_machine_classification            
